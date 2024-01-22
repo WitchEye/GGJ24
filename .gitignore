@@ -75,3 +75,4 @@ crashlytics-build.properties
 
 # JvLib
 /[Aa]ssets/[Jj]v[Ll]ib/
+/[Aa]ssets/[Jj]v[Ll]ib.meta
