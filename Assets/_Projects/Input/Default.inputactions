@@ -1,11 +1,66 @@
 {
-    "name": "MainInput",
+    "name": "Default",
     "maps": [
         {
             "name": "Player",
             "id": "db256280-ff84-4df0-9c30-4df08a76adc9",
-            "actions": [],
-            "bindings": []
+            "actions": [
+                {
+                    "name": "Horizontal",
+                    "type": "Value",
+                    "id": "7ce7a7ae-ee31-4c61-86df-ea5ad601db89",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4dd34a67-f1ae-4ddd-a335-456b7897bba1",
+                    "path": "<Gamepad>/leftStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Horizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "PC",
+                    "id": "8bf081a8-b648-40aa-84b6-1a29f9344b72",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Horizontal",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "94925f87-5cef-441c-913b-2e4a1d7b802b",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Horizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "494fe136-764d-4336-9b2a-a06b3b38ff83",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Horizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
         },
         {
             "name": "UI",
