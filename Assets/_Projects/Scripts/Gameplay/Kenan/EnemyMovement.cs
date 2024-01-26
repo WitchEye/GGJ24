@@ -1,21 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Splines;
 
 [SelectionBase]
 public class EnemyMovement : MonoBehaviour
 {
-    SplineAnimate SplineToFollow;
+    private readonly float _Min, _Max;
 
-    void Start()
+    [SerializeField] private AnimationCurve _AnimationCurve;
+
+    [SerializeField] float _Duration;
+    float _Time;
+
+    private void Update()
     {
-        
+        _Time++;
+        MoveEnemy();
     }
 
-
-    void Update()
+    private void MoveEnemy()
     {
-        
+        transform.position = new Vector3(0, 0, _Min + (_Max - _Min) * _AnimationCurve.Evaluate01(_Time / _Duration));
     }
 }
