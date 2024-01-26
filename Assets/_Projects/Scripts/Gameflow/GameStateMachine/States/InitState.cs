@@ -25,7 +25,7 @@ namespace Project.StateMachines
             
             yield return Svc.Ref.Audio.WaitForInstanceReadyAsync();
             Svc.Audio.Initialize();
-
+            
             _isReady = true;
         }
         

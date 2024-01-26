@@ -35,50 +35,47 @@ MonoBehaviour:
     _FromAnyStateTransition: 0
     _ToAnyStateTransition: 0
     _Comments: 
-    _Position: {x: 975, y: 390}
-  - _ID: 87d4ac5d-7b6c-4dde-9601-b0b0536e9424
-    _StateName: Pause
-    _FromAnyStateTransition: 0
-    _ToAnyStateTransition: 0
-    _Comments: 
-    _Position: {x: 1225, y: 290}
+    _Position: {x: 1250, y: 385}
   - _ID: 565f5845-0971-4f5a-a47f-56df1abb3a31
     _StateName: InitGame
     _FromAnyStateTransition: 0
     _ToAnyStateTransition: 0
     _Comments: 
-    _Position: {x: 975, y: 290}
+    _Position: {x: 1250, y: 290}
   - _ID: d432fae9-7c4c-4999-a7e8-4b21e8305783
     _StateName: GameOver
     _FromAnyStateTransition: 0
     _ToAnyStateTransition: 0
     _Comments: 
     _Position: {x: 1490, y: 290}
+  - _ID: ddc6e9b0-f14a-49f1-a3b6-59c50189b199
+    _StateName: CharacterSelect
+    _FromAnyStateTransition: 0
+    _ToAnyStateTransition: 0
+    _Comments: 
+    _Position: {x: 985, y: 290}
   _Transitions:
   - _FromState: a2f9cb97-5d80-4d1a-8c1a-33343ff63e45
     _ToState: 7e7ca887-71e0-4b65-84f7-aca9d2374ceb
-    _Corners: []
-  - _FromState: 7e7ca887-71e0-4b65-84f7-aca9d2374ceb
-    _ToState: 565f5845-0971-4f5a-a47f-56df1abb3a31
     _Corners: []
   - _FromState: 565f5845-0971-4f5a-a47f-56df1abb3a31
     _ToState: f14902c1-75e1-4152-bee4-89684b916d30
     _Corners: []
   - _FromState: f14902c1-75e1-4152-bee4-89684b916d30
-    _ToState: 87d4ac5d-7b6c-4dde-9601-b0b0536e9424
-    _Corners:
-    - {x: 1335, y: 420}
-  - _FromState: f14902c1-75e1-4152-bee4-89684b916d30
     _ToState: d432fae9-7c4c-4999-a7e8-4b21e8305783
     _Corners:
     - {x: 1600, y: 420}
-  - _FromState: 87d4ac5d-7b6c-4dde-9601-b0b0536e9424
-    _ToState: 7e7ca887-71e0-4b65-84f7-aca9d2374ceb
-    _Corners:
-    - {x: 1335, y: 205}
-    - {x: 790, y: 205}
   - _FromState: d432fae9-7c4c-4999-a7e8-4b21e8305783
     _ToState: 7e7ca887-71e0-4b65-84f7-aca9d2374ceb
     _Corners:
     - {x: 1600, y: 205}
     - {x: 790, y: 205}
+  - _FromState: 7e7ca887-71e0-4b65-84f7-aca9d2374ceb
+    _ToState: ddc6e9b0-f14a-49f1-a3b6-59c50189b199
+    _Corners: []
+  - _FromState: ddc6e9b0-f14a-49f1-a3b6-59c50189b199
+    _ToState: 565f5845-0971-4f5a-a47f-56df1abb3a31
+    _Corners: []
+  - _FromState: ddc6e9b0-f14a-49f1-a3b6-59c50189b199
+    _ToState: 7e7ca887-71e0-4b65-84f7-aca9d2374ceb
+    _Corners: []
