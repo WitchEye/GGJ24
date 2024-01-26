@@ -38,7 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.18041198, g: 0.22586867, b: 0.3069972, a: 1}
+=======
+  m_IndirectSpecularColor: {r: 0.17356709, g: 0.21698442, b: 0.29908705, a: 1}
+>>>>>>> Development
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1483,7 +1487,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ef1f971c79564204f862d1d8707399ec, type: 3}
   m_PrefabInstance: {fileID: 1333408406}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &1568910755
+=======
+--- !u!1 &1517481900
+>>>>>>> Development
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1491,9 +1499,15 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1568910758}
   - component: {fileID: 1568910757}
   - component: {fileID: 1568910756}
+=======
+  - component: {fileID: 1517481903}
+  - component: {fileID: 1517481902}
+  - component: {fileID: 1517481901}
+>>>>>>> Development
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -1501,13 +1515,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!114 &1568910756
+=======
+--- !u!114 &1517481901
+>>>>>>> Development
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1568910755}
+=======
+  m_GameObject: {fileID: 1517481900}
+>>>>>>> Development
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
@@ -1524,13 +1546,21 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+<<<<<<< HEAD
 --- !u!108 &1568910757
+=======
+--- !u!108 &1517481902
+>>>>>>> Development
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1568910755}
+=======
+  m_GameObject: {fileID: 1517481900}
+>>>>>>> Development
   m_Enabled: 1
   serializedVersion: 10
   m_Type: 1
@@ -1579,28 +1609,47 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
+<<<<<<< HEAD
   m_ColorTemperature: 19135
+=======
+  m_ColorTemperature: 6570
+>>>>>>> Development
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+<<<<<<< HEAD
 --- !u!4 &1568910758
+=======
+--- !u!4 &1517481903
+>>>>>>> Development
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1568910755}
   serializedVersion: 2
   m_LocalRotation: {x: 0.88822955, y: -0.18886122, z: 0.082722254, w: 0.4105323}
   m_LocalPosition: {x: 4.8, y: 31.8, z: 24.5}
+=======
+  m_GameObject: {fileID: 1517481900}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7713803, y: -0.034697667, z: -0.00031485505, w: 0.6354277}
+  m_LocalPosition: {x: 5.4946537, y: 8.63409, z: -3.4499729}
+>>>>>>> Development
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 130.488, y: 0.7160034, z: 24.337997}
+=======
+  m_LocalEulerAnglesHint: {x: 78.606, y: -166.958, z: -164.158}
+>>>>>>> Development
 --- !u!1001 &1647201614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2290,6 +2339,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ef1f971c79564204f862d1d8707399ec, type: 3}
   m_PrefabInstance: {fileID: 2101137358}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3719721683910439265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4095121735332719579}
+  m_Layer: 0
+  m_Name: Apple
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3909776738210226070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4398188992796509484}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4095121735332719579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3719721683910439265}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.071495, y: 0, z: 12.470686}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4398188992796509484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3909776738210226070}
+  m_Layer: 0
+  m_Name: FRUITS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2303,7 +2414,13 @@ SceneRoots:
   - {fileID: 628482773}
   - {fileID: 153621873}
   - {fileID: 1150443215}
+<<<<<<< HEAD
   - {fileID: 2058664067}
   - {fileID: 1070834568}
   - {fileID: 1568910758}
   - {fileID: 2060357083}
+=======
+  - {fileID: 1517481903}
+  - {fileID: 4095121735332719579}
+  - {fileID: 3909776738210226070}
+>>>>>>> Development
