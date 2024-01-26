@@ -8,10 +8,6 @@
     ///////////////////////////////////////////////////////////////////////////
     public partial class GameplayState
     {
-        protected void TransitionToPauseState()
-        {
-            StateMachine.TransitionTo(GameStates.Pause);
-        }
         protected void TransitionToGameOverState()
         {
             StateMachine.TransitionTo(GameStates.GameOver);
