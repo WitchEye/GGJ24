@@ -9,12 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a7f9107e3df483885c7de189eff0194, type: 3}
-  m_Name: PooledObjects
+  m_Script: {fileID: 11500000, guid: 18d99367d2cd45d46821b644f651ee14, type: 3}
+  m_Name: AmmoProperties
   m_EditorClassIdentifier: 
-  _BaseList: {fileID: 0}
-  _Entries:
-  - {fileID: 11400000, guid: 8d6c0d67201d0d14db216809c26e5599, type: 2}
-  _DerivedLists: []
-  _Guid: 59e5ce10c9334a84999ee081725105f3
-  _AutoGenerateIDs: 1
+  Direction: {x: 0, y: 0, z: 1}
+  StartPosition: {x: -2.4454167, y: 1.0195639, z: -3.5171127}
+  StartSpeed: 1.57
+  Mass: 0.17
+  Drag: 1.24

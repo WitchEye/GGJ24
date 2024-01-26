@@ -5,6 +5,7 @@ namespace JvLib.Pooling.Data.Objects
     public partial class PooledObjectConfig
     {
         private static JvLib.Pooling.Data.Objects.PooledObjectConfigs values;
+        private static JvLib.Pooling.Data.Objects.PooledObjectConfig ammunition;
 
         public static JvLib.Pooling.Data.Objects.PooledObjectConfigs Values
         {
@@ -16,6 +17,15 @@ namespace JvLib.Pooling.Data.Objects
             }
         }
 
+        public static JvLib.Pooling.Data.Objects.PooledObjectConfig Ammunition
+        {
+            get
+            {
+                if (ammunition == null && Values != null)
+                    ammunition = (JvLib.Pooling.Data.Objects.PooledObjectConfig)Values.GetEntry("8d6c0d67201d0d14db216809c26e5599");
+                return ammunition;
+            }
+        }
 
     }
 }
