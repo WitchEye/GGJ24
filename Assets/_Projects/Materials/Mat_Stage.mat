@@ -112,7 +112,7 @@ Material:
     - _CameraFadingEnabled: 0
     - _CameraFarFadeDistance: 2
     - _CameraNearFadeDistance: 1
-    - _CircleDensity: 20.7
+    - _CircleDensity: 7.37
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _ColorMode: 0
@@ -128,13 +128,13 @@ Material:
     - _DstBlendAlpha: 0
     - _EmissionEnabled: 0
     - _EnvironmentReflections: 1
-    - _FalloffThreshold: 2.7
+    - _FalloffThreshold: 0.71
     - _FlipbookMode: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _LightingEnabled: 0
-    - _Lit_Threshold: 2.24
+    - _Lit_Threshold: 0.72
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -154,6 +154,7 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
+    - _Tiling: 1
     - _USE_SCREEN_SPACE: 1
     - _WorkflowMode: 1
     - _ZWrite: 1
