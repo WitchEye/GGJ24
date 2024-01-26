@@ -20,17 +20,17 @@ namespace Project.StateMachines
             AddState<InitState>(GameStates.Init);
             AddState<MainMenuState>(GameStates.MainMenu);
             AddState<GameplayState>(GameStates.Gameplay);
-            AddState<PauseState>(GameStates.Pause);
             AddState<InitGameState>(GameStates.InitGame);
             AddState<GameOverState>(GameStates.GameOver);
+            AddState<CharacterSelectState>(GameStates.CharacterSelect);
 
             CreateTransition(GameStates.Init, GameStates.MainMenu);
-            CreateTransition(GameStates.MainMenu, GameStates.InitGame);
             CreateTransition(GameStates.InitGame, GameStates.Gameplay);
-            CreateTransition(GameStates.Gameplay, GameStates.Pause);
             CreateTransition(GameStates.Gameplay, GameStates.GameOver);
-            CreateTransition(GameStates.Pause, GameStates.MainMenu);
             CreateTransition(GameStates.GameOver, GameStates.MainMenu);
+            CreateTransition(GameStates.MainMenu, GameStates.CharacterSelect);
+            CreateTransition(GameStates.CharacterSelect, GameStates.InitGame);
+            CreateTransition(GameStates.CharacterSelect, GameStates.MainMenu);
 
 
             SetStartState(GameStates.Init);
@@ -44,8 +44,8 @@ namespace Project.StateMachines
         Init,
         MainMenu,
         Gameplay,
-        Pause,
         InitGame,
         GameOver,
+        CharacterSelect,
     }
 }

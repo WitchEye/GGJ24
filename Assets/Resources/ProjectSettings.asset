@@ -22,7 +22,9 @@ MonoBehaviour:
     _MainScene:
       _Guid: 6bc755363cef6614a9d489622f2fef1d
       _Path: Assets/_Projects/Scenes/Systems.unity
-    _BootstrapScenes: []
+    _BootstrapScenes:
+    - _Guid: 93a427ff36077294c9a64da804389584
+      _Path: Assets/_Projects/Scenes/Environment.unity
   references:
     version: 2
     RefIds:

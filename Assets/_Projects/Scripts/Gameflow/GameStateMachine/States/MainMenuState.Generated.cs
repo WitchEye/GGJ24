@@ -8,9 +8,9 @@
     ///////////////////////////////////////////////////////////////////////////
     public partial class MainMenuState
     {
-        protected void TransitionToInitGameState()
+        protected void TransitionToCharacterSelectState()
         {
-            StateMachine.TransitionTo(GameStates.InitGame);
+            StateMachine.TransitionTo(GameStates.CharacterSelect);
         }
     }
 }
