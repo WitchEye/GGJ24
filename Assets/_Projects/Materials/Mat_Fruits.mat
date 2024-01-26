@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fruits
+  m_Name: Mat_Fruits
   m_Shader: {fileID: -6465566751694194690, guid: ca929afff157f6e4bbe69fbf179bbb4d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
